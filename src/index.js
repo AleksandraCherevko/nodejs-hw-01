@@ -1,3 +1,2 @@
-const message = 'hihdhw';
-
-console.log(message);
+import createFakeContact from './utils/createFakeContact.js';
+console.log(createFakeContact());
