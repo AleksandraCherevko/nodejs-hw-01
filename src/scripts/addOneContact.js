@@ -6,6 +6,6 @@ const addOneContact = async () => {
   const contactsList = await getAllContacts();
   const newContact = createFakeContact();
   contactsList.push(newContact);
-  await updateContacts();
+  await updateContacts(contactsList);
 };
 addOneContact();

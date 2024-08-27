@@ -1,4 +1,3 @@
-
 import getAllContacts from './getAllContacts.js';
 
 export const countContacts = async () => {
